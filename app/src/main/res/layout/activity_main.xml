@@ -14,4 +14,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+    <GridView
+        android:id="@+id/gv_gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#FCFCFC"
+        android:listSelector="@drawable/menu_selector"
+        android:padding="0dip"
+        android:verticalSpacing="1.0px"
+        android:layout_alignParentBottom="true"
+        android:horizontalSpacing="1.0px"
+        android:stretchMode="columnWidth"/>
 </RelativeLayout>
